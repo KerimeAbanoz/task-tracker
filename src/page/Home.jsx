@@ -18,6 +18,7 @@ const Home = () => {
 
   // CRUD  -READ--
   const getTask=async()=>{
+    //? destr
     const {data}=await axios(url)
     setTask(data);
     console.log(data)

@@ -15,11 +15,12 @@ body {
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .container {
   width: 500px;
   padding: 10px;
+  margin-top: 3rem;
   border: 10px solid#ECAB9E;
   border-radius: 20px;
   background-color: gray;
